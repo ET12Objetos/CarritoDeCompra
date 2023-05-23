@@ -15,4 +15,19 @@ public class Articulo
         Validacion.ValidarRango(precio, "El precio es incorrecto");
         this.Precio = precio;
     }
+
+    public void SetNombre(string nombre)
+    {
+        this.Nombre = nombre;
+    }
+
+    public void SetDescripcion(string descripcion)
+    {
+        this.Descripcion = descripcion;
+    }
+
+    public void SetPrecio(double precio)
+    {
+        this.Precio = precio;
+    }
 }
