@@ -17,4 +17,6 @@ foreach (Articulo articulo in articulos)
 
 carrito.Modificar(new Articulo("Leche", "Nueva descripcion", 400), "Leche");
 
+carrito.Borrar("Queso");
+
 carrito.Informar();

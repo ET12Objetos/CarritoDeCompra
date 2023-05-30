@@ -50,4 +50,11 @@ public class Carrito
         articulo.SetDescripcion(nuevo.Descripcion);
         articulo.SetPrecio(nuevo.Precio);
     }
+
+    public void Borrar(string nombre)
+    {
+        Articulo articulo = Buscar(nombre).First();
+
+        articulos.Remove(articulo);
+    }
 }
